@@ -63,7 +63,6 @@ dependencies {
     implementation(libs.google.firebase.ai)
 
     implementation(libs.glide)
-
     implementation(libs.jetbrains.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.play.services.location)
