@@ -32,6 +32,11 @@ class LoginActivity : AppCompatActivity() {
     private lateinit var btnGoogleSignIn: SignInButton
     private lateinit var googleSignInClient: GoogleSignInClient
 
+    private lateinit var btnGoogleSignIn: SignInButton
+    private lateinit var googleSignInClient: GoogleSignInClient
+
+
+
     companion object {
         private const val RC_SIGN_IN = 9001
         private const val TAG = "signInWithEmail"
@@ -50,6 +55,10 @@ class LoginActivity : AppCompatActivity() {
         passwordEditText = findViewById(R.id.edit_text_password)
         loginButton = findViewById(R.id.button_login)
         registerLink = findViewById(R.id.registerLink)
+
+        btnGoogleSignIn = findViewById<SignInButton>(R.id.btnGoogleSignIn)
+
+
         btnGoogleSignIn = findViewById<SignInButton>(R.id.btnGoogleSignIn)
 
 

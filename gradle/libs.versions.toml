@@ -24,7 +24,6 @@ firebaseCrashlyticsBuildtools = "3.0.3"
 firebaseAi = "17.5.0"
 
 glide = "4.16.0"
-
 kotlinxCoroutinesAndroid = "1.7.3"
 kotlinxCoroutinesCoreVersion = "1.7.3"
 playServicesLocation = "21.3.0"
