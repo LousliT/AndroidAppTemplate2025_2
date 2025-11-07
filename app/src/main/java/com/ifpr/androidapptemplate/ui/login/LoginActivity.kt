@@ -32,9 +32,6 @@ class LoginActivity : AppCompatActivity() {
     private lateinit var btnGoogleSignIn: SignInButton
     private lateinit var googleSignInClient: GoogleSignInClient
 
-    private lateinit var btnGoogleSignIn: SignInButton
-    private lateinit var googleSignInClient: GoogleSignInClient
-
 
 
     companion object {
