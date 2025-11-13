@@ -22,6 +22,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.view.drawToBitmap
 import com.bumptech.glide.Glide
 import com.google.firebase.ai.type.content
+
 class AiLogicFragment : Fragment() {
 
     private lateinit var promptInput: EditText
@@ -31,6 +32,11 @@ class AiLogicFragment : Fragment() {
     private lateinit var imageButton: Button
     private var imageUri: Uri? = null
     private lateinit var itemImageView: ImageView
+
+    private lateinit var imageButton: Button
+    private var imageUri: Uri? = null
+    private lateinit var itemImageView: ImageView
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -44,6 +50,7 @@ class AiLogicFragment : Fragment() {
 
         model = Firebase.ai(backend = GenerativeBackend.googleAI())
             .generativeModel("gemini-2.0-flash")
+
 
         imageButton = view.findViewById(R.id.btn_select_image)
         itemImageView = view.findViewById(R.id.bitmapImageView)
