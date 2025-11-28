@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E6E0FF"
     tools:context=".ui.dashboard.DashboardFragment">
 
 
@@ -15,7 +16,7 @@
         android:layout_marginTop="32dp"
         android:textAlignment="center"
         android:textSize="20sp"
-        android:text="Cadastro de ..."
+        android:text="Cadastro de novas sorveterias"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -39,6 +40,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Selecionar Imagem"
+        android:background="#FF97B7"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/image_item" />
@@ -48,7 +51,7 @@
         android:id="@+id/enderecoItemEditText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Endereço"
+        android:hint="Endereço da sorveteria"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button_select_image" />
